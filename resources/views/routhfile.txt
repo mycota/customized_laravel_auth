@@ -1,0 +1,44 @@
+black color: #040404
+			:#292b33
+			:#1c1e33
+
+Ash color:#FFFFFF
+		:#e3e3e3
+		:#f5f5f5
+		:#F2F2F2
+		:
+remson color:#008b9e
+			:#008a9f
+			:#097586
+
+any color you want: rgba(100, 148, 100, 40)
+
+            @include('modals.editUserModal')
+
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#usrs").on('click', function(){
+
+        $(this).css({
+          "color":"red"
+    
+    });
+        $(this).css({
+          "color":"red"
+    
+    });
+   });
+   });   
+
+
+{{ route('passwords.edit', Auth::user()->id) }}
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=developer.adamu@gmail.com
+MAIL_PASSWORD=waqhmmufchpuzgxv
+MAIL_ENCRYPTION=tls
